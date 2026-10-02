@@ -1,0 +1,10 @@
+node_modules
+.pnpm-store
+.next
+out
+*.tsbuildinfo
+law
+risk
+scannell_admin
+incident
+audit
