@@ -1,0 +1,7 @@
+type,key,name,parent_key,email,permissions,notes
+business_unit,practice-west,Practice West Operations,,,,Fictitious setup exercise
+site,practice-galway,Galway Practice Hub,practice-west,,,Practice workplace
+location,practice-office,Office Wing (Practice),practice-galway,,,Practice area
+department,practice-field,Field Services (Practice),practice-office,,,Practice team
+role,practice-inspector,Practice Inspector,,,inspection.view;inspection.conduct;inspection.complete,View and complete department inspections
+user,practice-jamie,Jamie Lee (Practice),practice-inspector,jamie.lee.practice@northstar.example,,Add an explicit department-scoped role assignment after import
